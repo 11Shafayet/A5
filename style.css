@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+header{
+	height: 125vh;
+	background-color: #22195B;
+}
+nav{
+	color: white;
+}
+nav a{
+	margin: 0 30px 0 0;
+	padding: 5px 0;
+	font-family: "Roboto",sans-serif;
+	font-size: 20px;
+	font-weight: 900;
+	line-height: 33.34px;
+	color: white;
+}
+ul{
+	padding: 20px 0;
+}
+ul li{
+	padding: 0;
+	margin: 0 ;
+}
+ul li a{
+	font-family: "Roboto",sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: white;
+
+}
+ul li a:hover{
+	color: #BEBBD2;
+	transition: .5s ease-in-out;
+}
+ul li  .active{
+	color: grey;
+}
+.btn:not(:disabled):not(.disabled){
+	cursor: pointer;
+	
+	padding: 10px 40px 12px;
+	background-color: white;
+	border-radius: 30px;
+	color: #3A414E;
+	font-weight: 600;
+}
+.btn:not(:disabled):not(.disabled):hover{
+	background-color: #22195B;
+	color: white;
+	border: 1px solid white;
+	transition: .5s ease-in-out;
+}
+.hero .head{
+	margin: 120px auto;
+}
+.hero .head h1{
+	margin-top: 100px;
+	margin-right: 80px;
+	font: 50px Rajdhani,sans-serif;
+	float: left;
+	color: white;
+	font-weight: 700;
+	line-height: 60px;
+
+}
+.hero .head p{
+	font-size: 15px;
+	color: white;
+	margin-top: 200px;
+	padding-right: 90px;
+	font-weight: 400;
+	line-height: 25px;
+
+}
+
+
+/*section-1*/
+
+
+.about{
+	width: 100%;
+	padding: 80px 0;
+}
+.about h1{
+	font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+	color: #3A414E;
+
+}
+.title p{
+	font-family: 'Roboto', sans-serif;
+	margin-left: 100px;
+    margin-right: 100px;
+}
+.second{
+	margin: 60px 0;
+}
+.service-1{
+	border: 1px solid #dcdcdc3d;
+    background: #dcdcdc3d;
+    padding: 20px 30px;
+    transition: 0.5s;
+
+}
+.service-1:hover{
+	background: #fff;
+    box-shadow: 0px 10px 20px 0px;
+    transition: 0.5s;
+}
+.service-1 h3{
+	font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    margin: 15px 0;
+    color: #605C5F;
+}
+.service-1 i{
+	font-size: 42px;
+	color: #613D6A;
+}
+.service-1 p{
+	font-family: 'Roboto', sans-serif;
+	color: #817979;
+}
+
+.feature{
+	width: 100%;
+	background: #dcdcdc3d;
+	padding: 80px 0;
+}
+
+.feature h1{
+	margin-top: 60px;
+	font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+	color: #3A414E;
+
+}
+
+.feature p{
+	font-family: 'Roboto', sans-serif;
+	color: #817979;
+
+}
+
+.feature button{
+	padding: 15px 40px;
+    border: 1px solid #21146A;
+    border-radius: 35px;
+    background: transparent;
+	color: #817979;
+    font-weight: 700;
+	transition: 0.5s;
+}
+
+.feature button:hover{
+	background: #21146A;
+	color: white;
+	transition: 0.5s;
+}
+
+
+.problem{
+	height: 150vh;
+	padding: 40px auto;
+}
+.double{
+	margin-top: 100px;
+	margin-bottom: 80px;
+}
+.double h1{
+	margin-top: 60px;
+	font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+	color: #3A414E;
+
+}
+
+.double p{
+	font-family: 'Roboto', sans-serif;
+	color: #817979;
+	padding: 10px 230px;
+
+}
+
+
+.col-md-4{
+	margin-top: 15px;
+}
+.third{
+	margin: 50px auto;
+}
+
+
+.third .third-1 li{
+	font-size: 15px;
+	font-family:"Rajdhani",sans-serif;
+		text-decoration: none;
+	list-style: none;
+	margin: 10px 10px 10px 10px;
+	color: #797979;
+}
+
+.third .third-1 li i .fa{
+	margin-right: 10px;
+	color: green;
+}
+.fa-check:before {
+    content: "\f00c";
+    margin:0 10px;
+}
+.well{
+	color:#F81C1C;
+	margin-right: 10px;
+}
+
+
+.third button{
+	margin: 20px 0;
+	padding: 11px 30px;
+    border: 2px solid #21146A;
+    border-radius: 35px;
+    background: transparent;
+    color: #21146A;
+    font-weight: 700;
+	font-family:"Rajdhani",sans-serif;
+	transition: 0.5s;
+}
+
+.third button:hover{
+	background: #21146A;
+	color: white;
+	transition: 0.5s;
+}
+.third-1{
+	border: 1px solid #FAF9FF;
+    background: #FAF9FF;
+    padding: 20px 30px;
+    transition: 0.5s;
+
+}
+.third-1:hover{
+	background: #fff;
+    box-shadow: 0px 10px 20px 0px;
+    transition: 0.5s;
+}
+.third h1{
+	margin: 30px 0 30px 0;
+	font-family:"Rajdhani",sans-serif;
+	font-weight: 700;
+	font-size: 35px; 
+	color: #3A414E;
+}
+.third p{
+	margin: 0 230px 80px 230px;
+	font-family:"Roboto",sans-serif;
+	color: #3A414E;
+
+
+}
+.third-1 h3{
+	color: #3A414E;
+}
+.third-1 h5{
+	color: #767676;
+}
+
+
+.footer{
+	background-color: #0E1424;
+	height: 450px;
+}
+.footer h3{
+	padding: 100px 0 11px 0;
+	color: white;
+	font-family:"Rajdhani",sans-serif;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 27.5px;
+}
+.footer h5{
+	color: rgb(121,121,121);
+	font-family:"Roboto",sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 25.005px;
+}
+.footer input{
+	height: 48px;
+    border: none;
+    outline: none;
+    width: 67% !important;
+    font-weight: 400;
+    background: #3E4350;
+    color: #fff;
+    padding-left: 20px;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 10px;
+}
+.footer button{
+	position: relative;
+    top: -93px;
+    left: 954px;
+    border: none;
+    outline: none;
+    padding: 6px 22px;
+}
+.social i{
+	background-color: #797979;
+	cursor: pointer;
+	padding: 5px;
+	margin: 0 3px;
+	color: white;
+}
+.social i:hover{
+	background-color: white;
+	color: #21146A;
+	transition: .2s ease-in-out;
+}
+
+.part-2{
+	position: relative;
+	top: -65px;
+	left:300px;
+	margin-top: -100px; 
+}
+.offer{
+	padding-left: 70px;
+	padding-bottom: 80px;
+	margin-bottom: 80px;
+}
+.offer i{
+	padding-top: 30px;
+	font-size: 40px;
+}
+.card{
+	border: 1px solid #F7F7F7;
+    background: #F7F7F7;
+    transition: 0.5s;
+
+}
+.card:hover{
+	background: #fff;
+    box-shadow: 0px 10px 20px 0px;
+    transition: 0.5s;
+}
+.card h3{
+	font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    margin: 15px 0;
+    color: #605C5F;
+}
+.card i{
+	font-size: 42px;
+	color: #613D6A;
+}
+.card p{
+	font-family: 'Roboto', sans-serif;
+	color: #817979;
+}
+.problem{
+	margin-bottom: 100px;
+}
+
+.company{
+	margin-top: 80px;
+	padding-left: 140px;
+}
+.slide{
+	padding-top: 70px;
+    margin-bottom: 100px;
+    padding-bottom: 70px;
+}
+.photo{
+    text-align: center;
+}
+.slide .carousel-indicators li{
+    background-color:blue;
+    position: relative;
+    top: 100px;
+    left: 11px;
+}
+.slide .carousel-item{
+    text-align: center;
+}
